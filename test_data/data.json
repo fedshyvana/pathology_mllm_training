@@ -1,0 +1,30 @@
+[
+    {
+        "id": "train::1",
+        "image": "1.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Briefly describe the following image.\n<image>"
+            },
+            {
+                "from": "assistant",
+                "value": "The image provided shows a relatively normal bronchus surrounded by lung adenocarcinoma."
+            }
+        ]
+    },
+    {
+        "id": "train::2",
+        "image": "2.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Image from the lung. Write a concise description for what you see.\n<image>"
+            },
+            {
+                "from": "assistant",
+                "value": "The image illustrates adenocarcinoma of the lung at high power demonstrating pleomorphic nuclei with vesicular chromatin."
+            }
+        ]
+    }
+]
